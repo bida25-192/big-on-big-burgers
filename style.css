@@ -228,3 +228,32 @@ body{
 .menu-card:hover h3{
     color:#ffb300;
 }
+
+.section-image{
+    width:100%;
+    max-width:800px;
+    height:350px;
+    object-fit:cover;
+    display:block;
+    margin:0 auto 30px;
+    border-radius:15px;
+}
+
+.section-image{
+    width:100%;
+    max-width:800px;
+    height:350px;
+    object-fit:cover;
+    display:block;
+    margin:0 auto 30px;
+    border-radius:15px;
+
+    transition:all 0.4s ease;
+    cursor:pointer;
+}
+
+.section-image:hover{
+    transform:scale(1.05);
+    filter:brightness(1.1);
+    box-shadow:0 15px 30px rgba(255,179,0,0.6);
+}
