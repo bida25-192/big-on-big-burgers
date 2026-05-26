@@ -165,3 +165,66 @@ footer{
     transform:scale(1.05);
     box-shadow:0 0 15px rgba(255,140,0,0.7);
 }
+
+body{
+    background: linear-gradient(
+        135deg,
+        #111111,
+        #1a1a1a,
+        #2b1d0e
+    );
+
+    color:white;
+    min-height:100vh;
+}
+
+.hero{
+    height:90vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url("images/hero.png");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.menu-card{
+    background:#1a1a1a;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    transition:all 0.3s ease;
+    cursor:pointer;
+}
+
+.menu-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(255,179,0,0.4);
+    border:1px solid #ffb300;
+}
+
+.menu-card img{
+    width:100%;
+    border-radius:10px;
+    transition:transform 0.3s ease;
+}
+
+.menu-card:hover img{
+    transform:scale(1.05);
+}
+
+.menu-card h3{
+    transition:color 0.3s ease;
+}
+
+.menu-card:hover h3{
+    color:#ffb300;
+}
