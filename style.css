@@ -69,3 +69,37 @@ nav{
 .nav-links a:hover{
     color:#ffb703;
 }
+
+.featured{
+    padding:80px 10%;
+    background:#1a1a1a;
+}
+
+.featured h2{
+    text-align:center;
+    color:#ffb703;
+    margin-bottom:40px;
+    font-size:2.5rem;
+}
+
+.featured-container{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.featured-image img{
+    width:100%;
+    max-width:500px;
+    border-radius:10px;
+}
+
+.featured-text h3{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.featured-text p{
+    line-height:1.8;
+    margin-bottom:25px;
+}
